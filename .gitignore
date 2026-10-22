@@ -1,0 +1,42 @@
+# Окружения Python и временные файлы
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Сборки публикуются отдельно в GitHub Releases
+build/
+dist/
+*.spec
+*.exe
+*.zip
+*.sha256
+
+# Личные настройки, сессии и история отправок
+config.json
+.env
+.env.*
+!.env.example
+profile/
+interface/
+data/
+OmniReports/
+*.sqlite3*
+*.db
+*.db-*
+*.log
+*.log.*
+*.lock
+self-test.json
+preview*.png
+glass-*.png
+
+# Настройки редакторов и системные файлы
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+.DS_Store
